@@ -6,7 +6,7 @@ module.exports.config = {
   name: "arrest",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "It'z Sammyo",
   description: "Generate scooby-doo meme using sender and target Facebook UID via Avatar Canvas API",
   commandCategory: "fun",
   usePrefix: true,
@@ -78,7 +78,7 @@ module.exports.run = async function ({ event, api }) {
 
   } catch (e) {
     return api.sendMessage(
-      "API Error Call Boss SAHU",
+      "API Error Call Boss It'z Sammyo",
       threadID,
       messageID
     );
