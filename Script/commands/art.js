@@ -2,7 +2,7 @@ module.exports.config = {
   name: "art",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "CYBER BOT TEAM",
+  credits: "Itz Sammyo",
   description: "Apply AI art style (anime)",
   commandCategory: "editing",
   usages: "reply to an image",
