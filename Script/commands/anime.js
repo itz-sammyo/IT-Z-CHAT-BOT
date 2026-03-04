@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "anemi",
+  name: "Anemi",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "It'z Sammyo",
   description: "Random Anime Videos From SAHU API",
   commandCategory: "video",
   usages: "anemi",
@@ -40,7 +40,7 @@ module.exports.run = async function ({ api, event }) {
     writer.on("finish", () => {
       api.sendMessage(
         {
-          body: "🎬 SAHU Anemi Random Video",
+          body: "🎬 Itz Sammy Anime Random Video",
           attachment: fs.createReadStream(filePath)
         },
         event.threadID,
