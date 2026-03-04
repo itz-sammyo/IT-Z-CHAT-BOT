@@ -2,14 +2,14 @@ module.exports.config = {
   name: "bday",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "It'z Sammyo",
   description: "Admin birthday",
   usePrefix: false,
   commandCategory: "bday",
   cooldowns: 5
 };
 
-const BIRTHDAY = "16/12";
+const BIRTHDAY = "11/12";
 
 module.exports.run = async ({ api, event }) => {
   const axios = global.nodemodule["axios"];
@@ -34,7 +34,7 @@ module.exports.run = async ({ api, event }) => {
   const diffSeconds = Math.floor((diffMs / 1000) % 60);
 
   if (diffDays === 1) {
-    const tomorrowMessage = `👉 Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!
+    const tomorrowMessage = `👉 Admin It'z Sammyo এর জন্মদিন আগামীকাল!
 অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল 😜
 
 উইশ করতে ভুলবে না কিন্তু... 🥰`;
@@ -43,24 +43,24 @@ module.exports.run = async ({ api, event }) => {
 
   if (diffDays === 0) {
     const happyBirthdayMessage = `╔═══ 🎉 HAPPY BIRTHDAY 🎉 ═══╗
-║ OUR BOSS - SHAHADAT SAHU 💖
+║ OUR BOSS - It'z Sammyo 💖
 ╟──────────────────────
 ║ 🎂 আজ আমাদের Boss এর জন্মদিন!
 ║ 🥳 সবাই মন থেকে উইশ করো
-║ ❤️ দোয়া ও ভালোবাসা জানাও
+║ ❤️ পারলে একটা GF খুঁজে দাও Boss কে 
 ╟──────────────────────
 ║ 📘 Facebook :
-║ www.facebook.com/100044713412032
+║ https://www.facebook.com/itzXsammyo
 ║ 💬 Messenger :
-║ m.me/100044713412032
+║ https://m.me/j/AbawGIWkwdbJuQGm/
 ║ 📱 WhatsApp :
-║ https://wa.me/+8801882333052
+║ 999
 ╚══════════════════════╝`;
     return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
   }
 
   const countdownMessage = `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin It'z Sammyo 
 ║ জন্মদিন কাউন্টডাউন ❤️‍🔥
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
