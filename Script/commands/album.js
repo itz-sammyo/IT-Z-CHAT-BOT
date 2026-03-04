@@ -13,7 +13,7 @@ module.exports.config = {
  name: "album",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "Dipto Modified By SAHU", 
+ credits: "Dipto Modified By Ïtz Sammyo", 
  description: "Displays album options for selection.",
  usePrefix: true,
  prefix: true,
@@ -52,7 +52,7 @@ module.exports.run = async function ({ api, event, args }) {
  "║ 🌌 𝟭𝟭. 𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
  "║ 🦁 𝟭𝟮. 𝗦𝗶𝗴𝗺𝗮 𝗥𝘂𝗹𝗲 🐤\n" +
  "║ 🎶 𝟭𝟯. 𝗟𝘆𝗿𝗶𝗰𝘀 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
- "║ 🐱 𝟭𝟰. 𝗖𝗮𝘁 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
+ "║ 🐱 𝟭𝟰. 𝗖𝗮𝘁 𝗩𝗶𝗱𝗲𝗼 Meye Hole It'z Sammyo er Kase Jan🐤\n" +
  "║ 🚫 𝟭𝟱. 18+ 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
  "║ 🎮 𝟭𝟲. 𝗙𝗿𝗲𝗲 𝗙𝗶𝗿𝗲 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
  "║ ⚽ 𝟭𝟳. 𝗙𝗼𝗼𝘁𝗯𝗮𝗹𝗹 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
