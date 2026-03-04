@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "ai",
     version: "1.0.0",
-    credits: "SHAHADAT SAHU", //please don't change credit
+    credits: "It'z Sammyo", //please don't change credit
     cooldowns: 0,
     hasPermssion: 0,
     usePrefix: true
