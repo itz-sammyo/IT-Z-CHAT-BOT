@@ -15,8 +15,8 @@ module.exports.run = async function({ api, event }) {
         "আপনি যদি তৈরি করতে চান, তাহলে চলে যেতে পারেন আমাদের ইউটিউব চ্যানেলে। " +
         "সেখানে গিয়ে ভিডিও দেখে আপনি খুব সহজে বট তৈরি করে নিতে পারবেন। " +
         "তাহলে আর দেরি না করে এখনি চলে যান আমাদের ইউটিউব চ্যানেলে।\n\n" +
-        "➤ YouTube Channel: https://youtube.com/@scb-community\n\n" +
-        "🔗 GitHub Fork Link: https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT";
+        "➤ YouTube Channel: https://youtube.com/@itzxsammyo\n\n" +
+        "🔗 GitHub Fork Link: Nai ";
 
     return api.sendMessage(message, event.threadID, event.messageID);
 };
