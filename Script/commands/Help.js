@@ -41,24 +41,6 @@ module.exports.languages = {
     }
 };
 
-// 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
-const helpImages = [
-    "https://imgur.com/a/xnqBLBd",
-    "https://imgur.com/a/vUwoZ8g",
-    "https://imgur.com/a/8UQFzIs",
-    "https://imgur.com/a/5XI0Utc"
-];
-
-
-function downloadImages(callback) {
-    const randomUrl = helpImages[Math.floor(Math.random() * helpImages.length)];
-    const filePath = path.join(__dirname, "cache", "help_random.jpg");
-
-    request(randomUrl)
-        .pipe(fs.createWriteStream(filePath))
-        .on("close", () => callback([filePath]));
-}
-
 module.exports.handleEvent = function ({ api, event, getText }) {
     const { commands } = global.client;
     const { threadID, messageID, body } = event;
