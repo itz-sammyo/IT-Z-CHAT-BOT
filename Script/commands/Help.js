@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐈𝐭'𝐳 𝐒𝐚𝐦𝐦𝐲𝐨
+┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -40,6 +40,19 @@ module.exports.languages = {
         "adminBot": "Admin Bot"
     }
 };
+
+// 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
+const helpImages = 
+
+
+function downloadImages(callback) {
+    const randomUrl = helpImages[Math.floor(Math.random() * helpImages.length)];
+    const filePath = path.join(__dirname, "cache", "help_random.jpg");
+
+    request(randomUrl)
+        .pipe(fs.createWriteStream(filePath))
+        .on("close", () => callback([filePath]));
+}
 
 module.exports.handleEvent = function ({ api, event, getText }) {
     const { commands } = global.client;
@@ -126,7 +139,7 @@ ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
 ┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐈𝐭'𝐳 𝐒𝐚𝐦𝐦𝐲𝐨
+┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
