@@ -4,7 +4,7 @@
   
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00A8FF&center=true&vCenter=true&width=500&lines=Assalamualaikum+Everyone!;Welcome+To+SHAHADAT+CHAT+BOT+Fork!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00A8FF&center=true&vCenter=true&width=500&lines=Assalamualaikum+Everyone!;Welcome+To+IT'Z+CHAT+BOT+Fork!" />
 </p>
 
 <!-- Image -->
@@ -15,15 +15,15 @@
 <!-- COLORED + BOLD TITLE (NO ANIMATION) -->
 <p align="center" style="font-family: 'Segoe UI', sans-serif; font-weight: bold;">
 
-  <!-- SHAHADAT CHAT BOT -->
+  <!-- ÏT'Z CHAT BOT -->
   <span style="font-size: 32px; font-weight: 700; color:#00A8FF;">
-    SHAHADAT CHAT BOT
+    IT'Z CHAT BOT
   </span>
   <br>
 
   <!-- Developed By -->
   <span style="font-size: 22px; font-weight: 700; color:#FF8A00;">
-    Developed By SHAHADAT SAHU
+    Developed By IT'Z SAMMYO
   </span>
 
 </p>
@@ -32,17 +32,17 @@
 <div align="center">
 
   <!-- ⭐ Fork -->
-  <img src="https://img.shields.io/github/forks/shahadat-sahu/SHAHADAT-CHAT-BOT?style=for-the-badge" alt="Forks">
+  <img src="Www.www.com?style=for-the-badge" alt="Forks">
 
   <!-- ⭐ Stars -->
-  <img src="https://img.shields.io/github/stars/shahadat-sahu/SHAHADAT-CHAT-BOT?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields?style=for-the-badge" alt="Stars">
 
   <!-- ⭐ Fork Views -->
   <img src="https://komarev.com/ghpvc/?username=shahadat-sahu&label=Fork%20Views&color=blueviolet&style=for-the-badge" alt="Fork Views">
 
 
   <!-- ⭐ Original Repository -->
-  <a href="https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT">
+  <a href="https://github.com">
     <img src="https://img.shields.io/badge/ORIGINAL%20REPOSITORY-black?style=for-the-badge&logo=github&logoColor=white" alt="Original Repo">
   </a>
 
@@ -102,12 +102,12 @@ Click the image above to watch the step-by-step tutorial on YouTube.
 <p align="center">
 
   <!-- ⭐ Fork Button -->
-  <a href="https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/fork">
+  <a href="https://github.com">
     <img src="https://img.shields.io/badge/FORK%20REPOSITORY-blue?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repo">
   </a>
 
   <!-- ⭐ Import Button -->
-  <a href="https://github.com/new/import?source=https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT">
+  <a href="https://github.com/new/import?source=https://github.com">
     <img src="https://img.shields.io/badge/IMPORT%20REPOSITORY-black?style=for-the-badge&logo=github&logoColor=white" alt="Import Repo">
   </a>
 
@@ -120,7 +120,7 @@ Click the image above to watch the step-by-step tutorial on YouTube.
 **Start Command**  
    Navigate to the folder where your bot files are located:
    ```bash
-   node Sahu.js
+   node Itz.js
 ```
 
 
@@ -164,9 +164,10 @@ ___
 **Location:** `KHAGRACHARI, BANGLADESH`
 
 #### 📞 CONTACT
-- **WhatsApp:** [WhatsApp Me](https://wa.me/+8801882333052)
-- **Facebook:** [Profile Me](https://facebook.com/100044713412032)
-- **Messenger:** [Message Me](https://m.me/100044713412032)
+- **WhatsApp:** [WhatsApp Me]
+- (999)
+- **Facebook:** [Profile Me](https://www.facebook.com/itzXsammyo)
+- **Messenger:** [Message Me](https://m.me/j/AbawGIWkwdbJuQGm/)
 
 #### 🚀 APPROACH
 - 💻 Copy-paste techniques with deep customizations  
