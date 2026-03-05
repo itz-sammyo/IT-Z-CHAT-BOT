@@ -42,7 +42,9 @@ module.exports.languages = {
 };
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
-const helpImages = 
+const helpImages = [
+    "https://imgur.com/a/g0nPlkF.jpeg",
+];
 
 
 function downloadImages(callback) {
@@ -86,7 +88,37 @@ module.exports.handleEvent = function ({ api, event, getText }) {
     });
 };
 
-            
+module.exports.run = function ({ api, event, args, getText }) {
+    const { commands } = global.client;
+    const { threadID, messageID } = event;
+
+    const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};  
+    const prefix = threadSetting.PREFIX || global.config.PREFIX;  
+
+    if (args[0] && commands.has(args[0].toLowerCase())) {  
+        const command = commands.get(args[0].toLowerCase());  
+
+        const detailText = getText("moduleInfo",  
+            command.config.name,  
+            command.config.usages || "Not Provided",  
+            command.config.description || "Not Provided",  
+            command.config.hasPermssion,  
+            command.config.credits || "Unknown",  
+            command.config.commandCategory || "Unknown",  
+            command.config.cooldowns || 0,  
+            prefix,  
+            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        );  
+
+        downloadImages(files => {  
+            const attachments = files.map(f => fs.createReadStream(f));  
+            api.sendMessage({ body: detailText, attachment: attachments }, threadID, () => {  
+                files.forEach(f => fs.unlinkSync(f));  
+            }, messageID);  
+        });  
+        return;  
+    }  
+
     const arrayInfo = Array.from(commands.keys())
         .filter(cmdName => cmdName && cmdName.trim() !== "")
         .sort();  
