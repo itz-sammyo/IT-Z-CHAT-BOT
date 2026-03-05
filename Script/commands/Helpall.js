@@ -33,21 +33,3 @@ ${allCommands.map(cmd => `║ ➔ ${cmd}`).join("\n")}
 ║ 👑 𝐎𝐰𝐧𝐞𝐫: 𝐈𝐭'𝐳 𝐒𝐚𝐦𝐦𝐲𝐨
 ║ 📦 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${allCommands.length} 
 ╚═══════════════════════╝`;
-
- 
- const backgrounds = [
- "https://i.imgur.com/wu0iDqS.jpeg",
- "https://i.imgur.com/zqsuJnX.jpeg",
- "https://i.imgur.com/Huz3nAE.png",
- "https://i.imgur.com/wu0iDqS.jpeg"
- ];
- const selectedBg = backgrounds[Math.floor(Math.random() * backgrounds.length)];
- const imgPath = __dirname + "/cache/helpallbg.jpg";
-
- const callback = () =>
- api.sendMessage({ body: finalText, attachment: fs.createReadStream(imgPath) }, threadID, () => fs.unlinkSync(imgPath), messageID);
-
- request(encodeURI(selectedBg))
- .pipe(fs.createWriteStream(imgPath))
- .on("close", () => callback());
-};
