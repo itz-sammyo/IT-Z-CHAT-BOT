@@ -7,7 +7,7 @@ const baseApiUrl = async () => {
   return base.data.api;
 };
 module.exports.config = {
-    name: "🫶",
+    name: "Sing",
     version: "2.1.0",
     aliases: [ "music", "play"],
     credits: "dipto",
