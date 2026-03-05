@@ -12,7 +12,7 @@
   "PASSWORD": "your password",
   "OTPKEY": "",
   "BOTNAME": "─꯭─⃝‌‌𝐈𝐓'𝐙-𝐂𝐡𝐚𝐭𝐁𝐨𝐭",
-  "PREFIX": "/",
+  "PREFIX": "!",
   "reactUnsend": ["😡", "🤧", "🖕", "😠"],
 
   "ADMINBOT": [
